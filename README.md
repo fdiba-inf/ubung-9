@@ -51,7 +51,7 @@ Die Klasse enthält das Folgende:
 * **Methode _double calculatePerimeter()_:** Umfang berechnen.
 * **Methode _double calculateArea()_:** Fläche berechnen.
 * **Methode _String getType()_:** Art bestimmen _(“Cycle“, “ Ellipse“)_.
-* **Methode _String toString()_:** Ellipse als String darstellen: _(x, y)-[a, b], Art, U=Umfang, F=Fläche_ z.B. “_(1, 1)-[2, 3], Ellipse, U=15.86, F=18.84_“.
+* **Methode _String toString()_:** Ellipse als String darstellen: _(x, y)-[a, b], Art, P=Umfang, A=Fläche_ z.B. “_(1, 1)-[2, 3], Ellipse, P=15.86, A=18.84_“.
 * **Methode _boolean equals(Ellipse otherEllipse)_:** Ellipsen vergleichen. Zwei Ellipsen sind gleich, wenn ihre Halbachsen gleich sind.
 
 <img src="https://github.com/fdiba-inf/vorlesung/raw/master/images/exercise9/ellipse-formula.png" width="400">
