@@ -1,4 +1,4 @@
-package exercise8;
+package exercise9;
 
 public class PointDemo {
     public static void main(String[] args) {
