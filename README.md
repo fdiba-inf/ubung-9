@@ -66,16 +66,12 @@ Die Klasse enthält das Folgende:
 
 Erwartete Ausgabe:
 ``` 
-Eingabe x: 1
-Eingabe y: 2
-Halbachse a: 3
-Halbachse b: 2
-(0.0, 0.0)-[1.0, 1.0], Kreis, U=6.283185307179586, F=3.141592653589793
-(2.0, 3.0)-[5.0, 6.0], Ellipse, U=34.628955940751425, F=94.24777960769379
-(2.0, 3.0)-[5.0, 6.0], Ellipse, U=34.628955940751425, F=94.24777960769379
-(1.0, 2.0)-[3.0, 2.0], Ellipse, U=15.865437575563961, F=18.84955592153876
-Ellipse 2 gleich Ellipse 1: false
-Ellipse 2 gleich Ellipse 3: true
+Ellipse 1: (0.0, 0.0)-[1.0, 1.0], Cycle, P=6.283185307179586, A=3.141592653589793
+Ellipse 2: (2.0, 3.0)-[5.0, 6.0], Ellipse, P=34.628955940751425, A=94.24777960769379
+Ellipse 3: (2.0, 3.0)-[5.0, 6.0], Ellipse, P=34.628955940751425, A=94.24777960769379
+Ellipse 4: (1.0, 2.0)-[3.0, 2.0], Ellipse, P=15.865437575563961, A=18.84955592153876
+Ellipse 2 equals Ellipse 1: false
+Ellipse 2 equals Ellipse 3: true
 ``` 
 ## Aufgabe 3. Ellipse Demo Speicherplatz
 Wie sieht der Speicherplatz nach der Ausführung der main-Methode aus?

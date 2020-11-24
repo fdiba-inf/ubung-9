@@ -31,9 +31,9 @@ public class Rectangle {
         do {
             System.out.println("Start point: ");
             startPoint.initialize();
-            System.out.print("Height: ");
+            System.out.print("Enter height: ");
             height = Utils.INPUT.nextDouble();
-            System.out.print("Width: ");
+            System.out.print("Enter width: ");
             width = Utils.INPUT.nextDouble();
         } while (!isValid());
     }
@@ -51,7 +51,7 @@ public class Rectangle {
     }
 
     public String toString() {
-        return String.format("%s-[%s, %s], %s, U=%s, F=%s", startPoint, height, width, getType(), calculatePerimeter(), calculateArea());
+        return String.format("%s-[%s, %s], %s, P=%s, A=%s", startPoint, height, width, getType(), calculatePerimeter(), calculateArea());
     }
 
     public boolean equal(Rectangle otherRectangle) {
