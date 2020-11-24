@@ -19,7 +19,7 @@ Die Klasse enthält das Folgende:
 * **Methode _double calculatePerimeter()_:** Umfang berechnen.
 * **Methode _double calculateArea()_:** Fläche berechnen.
 * **Methode _String getType()_:** Art bestimmen _(“Square“, “ Rectangle“)_.
-* **Methode _String toString()_:** Rechteck als String darstellen: _(x, y)-[Ho, Br], Art, U=Umfang, F=Fläche_ z.B. _“(1, 1)-[2, 3], Rechteck, U=10, F=6“_.
+* **Methode _String toString()_:** Rechteck als String darstellen: _(x, y)-[Ho, Br], Art, P=Umfang, A=Fläche_ z.B. _“(1, 1)-[2, 3], Rectangle, P=10, A=6“_.
 * **Methode _boolean equals(Rectangle otherRectangle)_:** Rechtecke vergleichen. Zwei Rechtecke sind gleich, wenn ihre Seiten gleich sind.
 
 Betrachten Sie die Klasse _RectangleDemo_ im Paket _exercise9_. Die main-Methode initialisiert vier Rechtecke:
