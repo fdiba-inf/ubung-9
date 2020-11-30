@@ -50,7 +50,7 @@ Die Klasse enthält das Folgende:
 * **Methode _void initialize()_:** Attribute aus der Konsole eingeben, bis sie korrekt sind.
 * **Methode _double calculatePerimeter()_:** Umfang berechnen.
 * **Methode _double calculateArea()_:** Fläche berechnen.
-* **Methode _String getType()_:** Art bestimmen _(“Cycle“, “ Ellipse“)_.
+* **Methode _String getType()_:** Art bestimmen _(“Circle“, “ Ellipse“)_.
 * **Methode _String toString()_:** Ellipse als String darstellen: _(x, y)-[a, b], Art, P=Umfang, A=Fläche_ z.B. “_(1, 1)-[2, 3], Ellipse, P=15.86, A=18.84_“.
 * **Methode _boolean equals(Ellipse otherEllipse)_:** Ellipsen vergleichen. Zwei Ellipsen sind gleich, wenn ihre Halbachsen gleich sind.
 
@@ -66,7 +66,7 @@ Die Klasse enthält das Folgende:
 
 Erwartete Ausgabe:
 ``` 
-Ellipse 1: (0.0, 0.0)-[1.0, 1.0], Cycle, P=6.283185307179586, A=3.141592653589793
+Ellipse 1: (0.0, 0.0)-[1.0, 1.0], Circle, P=6.283185307179586, A=3.141592653589793
 Ellipse 2: (2.0, 3.0)-[5.0, 6.0], Ellipse, P=34.628955940751425, A=94.24777960769379
 Ellipse 3: (2.0, 3.0)-[5.0, 6.0], Ellipse, P=34.628955940751425, A=94.24777960769379
 Ellipse 4: (1.0, 2.0)-[3.0, 2.0], Ellipse, P=15.865437575563961, A=18.84955592153876
