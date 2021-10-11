@@ -5,7 +5,7 @@ Bevor Sie die Taste _"Work in Repl.it"_ klicken, öffnen Sie https://repl.it/aut
 ## Aufgabe 0. Rechteck
 Betrachten Sie die Klasse _Rectangle_ im Paket _exercise9_, die nur Rechtecke behandelt, dessen Seiten parallel zu den Koordinatenachsen liegen.
 
-<img src="https://github.com/fdiba-inf/vorlesung/raw/master/images/exercise9/rectangle.png" width="200">
+<img src="https://github.com/fdiba-inf/vorlesung/blob/main/images/exercise9/rectangle.png" width="200">
 
 Die Attribute sind nur in der Klasse zugänglich.
 Die Methoden und Konstruktoren sind überall zugänglich.
@@ -31,12 +31,12 @@ Betrachten Sie die Klasse _RectangleDemo_ im Paket _exercise9_. Die main-Methode
 
 Wie sieht der Speicherplatz nach der Ausführung der main-Methode aus?
 
-<img src="https://github.com/fdiba-inf/vorlesung/raw/master/images/exercise9/rectangle-memory.png" width="400">
+<img src="https://github.com/fdiba-inf/vorlesung/blob/main/images/exercise9/rectangle-memory.png" width="400">
 
 ## Aufgabe 1. Ellipse
 Ändern Sie die Klasse _Ellipse_ im Paket _exercise9_, die nur Ellipsen behandelt, deren Achsen parallel zu den Koordinatenachsen liegen.
 
-<img src="https://github.com/fdiba-inf/vorlesung/raw/master/images/exercise9/ellipse.png" width="200">
+<img src="https://github.com/fdiba-inf/vorlesung/blob/main/images/exercise9/ellipse.png" width="200">
 
 Die Attribute sollen nur in der Klasse zugänglich sein.
 Die Methoden und Konstruktoren sollen überall zugänglich sein.
@@ -54,7 +54,7 @@ Die Klasse enthält das Folgende:
 * **Methode _String toString()_:** Ellipse als String darstellen: _(x, y)-[a, b], Art, P=Umfang, A=Fläche_ z.B. “_(1, 1)-[2, 3], Ellipse, P=15.86, A=18.84_“.
 * **Methode _boolean equals(Ellipse otherEllipse)_:** Ellipsen vergleichen. Zwei Ellipsen sind gleich, wenn ihre Halbachsen gleich sind.
 
-<img src="https://github.com/fdiba-inf/vorlesung/raw/master/images/exercise9/ellipse-formula.png" width="400">
+<img src="https://github.com/fdiba-inf/vorlesung/blob/main/images/exercise9/ellipse-formula.png" width="400">
 
 ## Aufgabe 2. Ellipse Demo
 Ändern Sie die Klasse _EllipseDemo_ im Paket _exercise9_. Die main-Methode soll vier Ellipsen initialisieren:
